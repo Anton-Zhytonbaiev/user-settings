@@ -1,24 +1,24 @@
-# vue-project
+# Vue user settings
 
-## Project setup
-```
-npm install
-```
+## About project
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This is a mini Spa page for configuring the platform user. Built using the Vue 3 framework. 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+This form has no connection with the server, but after clicking the Invite user button, all the information that the user filled in the form is displayed in the console. Since little information is used, I decided to use localStorage instead of Vuex. After "sending" the information, all input fields go into the disabled state. To see the result, I invite you to follow the link.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Terminal commands
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- ```npm install``` - Project setup
+- ```npm run serve``` - Compiles and hot-reloads for development
+- ```npm run build``` - Compiles and minifies for production
+- ```npm run lint``` - Lints and fixes files
+
+## Technologies
+
+- Vue
+- Vue-router
+- SASS
+
+## Troubleshooting
+
+For any contributing or problem solving you could find me [here](https://t.me/Anton_Zhytonbaiev) and [here](https://www.linkedin.com/in/anton-zhytonbaiev-2b0070266/?locale=uk_UA)

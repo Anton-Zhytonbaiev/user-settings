@@ -1,0 +1,131 @@
+@import '../../style/variables';
+
+.form {
+  &__line {
+    margin-top: 33px;
+    width: 100%;
+    height: 0px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 24px 0;
+  }
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+
+    &-checkbox {
+      display: flex;
+      margin-bottom: 16px;
+    }
+  }
+
+  &__text {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 144%;
+    color: $dark-blue;
+    opacity: 0.6;
+  }
+
+  &__ending {
+    display: flex;
+    justify-content: flex-end;
+    margin: 28px 24px 24px;
+  }
+
+  &__submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    background: $dark-blue;
+    border: none;
+    border-radius: 20px;
+    color: $white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    @media (max-width: 500px) {
+      font-size: 12px;
+    }
+
+    &:hover {
+      background: #ccc;
+      color: $dark-blue;
+    }
+  }
+}
+
+.container {
+  display: flex;
+}
+
+.required::before {
+  content: '*';
+  color: #f5455a;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+
+  @media (max-width: 500px) {
+    width: 14px;
+    height: 14px;
+  }
+
+  &__text {
+    margin: 0 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: $dark-blue;
+
+    @media (max-width: 500px) {
+      margin: 0 6px;
+      font-size: 12px;
+    }
+  }
+}
+
+.label__text {
+  color: #8d91a8;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 4px;
+}
+
+.field {
+  width: 345px;
+  height: 40px;
+  padding: 8px;
+  border: 1px solid rgba(29, 36, 82, 0.1);
+  border-radius: 8px;
+  color: $dark-blue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 144%;
+
+  @media (max-width: 500px) {
+    height: 30px;
+    padding: 6px;
+    font-size: 12px;
+    width: 200px;
+  }
+}

@@ -1,0 +1,22 @@
+body, h1, p, input, button, select {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, Arial, sans-serif;
+}
+
+select {
+  appearance: none;
+  background-image: url('./assets/arrow.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-position-x: calc(100% - 5px);
+}
+
+select option {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 144%;
+  color: #1d2452;
+}
