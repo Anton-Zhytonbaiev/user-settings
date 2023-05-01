@@ -4,7 +4,7 @@
 
 This is a mini Spa page for configuring the platform user. Built using the Vue 3 framework. 
 
-This form has no connection with the server, but after clicking the Invite user button, all the information that the user filled in the form is displayed in the console. Since little information is used, I decided to use localStorage instead of Vuex. After "sending" the information, all input fields go into the disabled state. To see the result, I invite you to follow the link.
+This form has no connection with the server, but after clicking the Invite user button, all the information that the user filled in the form is displayed in the console. Since little information is used, I decided to use localStorage instead of Vuex. After "sending" the information, all input fields go into the disabled state. To see the result, I invite you to follow the link [Demo](https://iridescent-bonbon-8ff184.netlify.app).
 
 ## Terminal commands
 
